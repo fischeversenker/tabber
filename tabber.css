@@ -1,0 +1,29 @@
+.tab-group {
+  margin: 0;
+  padding: 0;
+}
+
+.tab-group-openers {
+  display: block;
+  background: #777;
+  color: white;
+  line-height: 40px;
+  font-size: 16px;
+  margin: 0;
+}
+
+.tab-opener {
+  display: inline-block;
+  padding: 0 13px;
+  cursor: pointer;
+  transition: color .3s ease, background .3s ease;
+}
+
+.tab-opener.tab-visible {
+  color: black;
+  background: white;
+}
+
+.tab {
+  padding: 13px 31px;
+}

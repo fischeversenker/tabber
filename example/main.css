@@ -1,0 +1,33 @@
+body {
+  background: #bada55;
+  color: white;
+  margin: 0;
+  padding: 0;
+  padding-top: 66px;
+  overflow-y: scroll;
+}
+
+div {
+  margin: 13px 0;
+}
+p {
+  margin: 7px 0;
+}
+
+pre {
+  padding: 7px;
+  background: #efefef;
+  color: #111;
+}
+
+.main-wrapper {
+  width: 800px;
+  background: white;
+  color: black;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  border-bottom: 1px solid #666;
+}
