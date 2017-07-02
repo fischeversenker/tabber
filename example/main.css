@@ -3,8 +3,8 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  padding-top: 66px;
   overflow-y: scroll;
+  font-family: 'Helvetica', sans-serif;
 }
 
 div {
@@ -20,14 +20,26 @@ pre {
   color: #111;
 }
 
-.main-wrapper {
-  width: 800px;
-  background: white;
-  color: black;
-  margin: 0 auto;
+h1,
+h2,
+h3 {
+  border-bottom: 1px solid #666;
 }
 
-h1,
-h2 {
-  border-bottom: 1px solid #666;
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  width: 800px;
+}
+
+.aside-content {
+  width: 400px;
+}
+
+.aside-content .tab {
+  height: 300px;
+  overflow-y: auto;
 }

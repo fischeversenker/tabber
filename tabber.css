@@ -1,5 +1,5 @@
 .tab-group {
-  margin: 0;
+  margin: 0 13px;
   padding: 0;
 }
 
@@ -26,4 +26,6 @@
 
 .tab {
   padding: 13px 31px;
+  background: white;
+  color: black;
 }

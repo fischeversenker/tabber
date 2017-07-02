@@ -11,7 +11,7 @@
       and you can use following classes and options:
     </p>
   </div>
-  <h2>Tab-Group</h2>
+  <h3>Tab-Group</h3>
   <div>
     <p>Group of tabs. Add class <em>tab-group</em> to container.</p>
     <pre>&lt;div class="tab-group" [data-tab-open="{index}"]&gt;
@@ -26,7 +26,7 @@
   </div>
 </div>
 <div>
-  <h2>Tab</h2>
+  <h3>Tab</h3>
   <div>
     <p>Define a tab with class <em>tab</em>:</p>
     <pre>&lt;div class="tab" [data-tab-name="Documentation"] [data-tab-file="documentation.html"]&gt;
@@ -44,7 +44,4 @@
       </li>
     </ul>
   </div>
-</div>
-<div>
-  <a href="#index">Back to Index</a>
 </div>
